@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import url("https://uilight.netlify.app/main.css");
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* max-width: 1280px; */
+  /* margin: 0 ; */
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .logo {
@@ -41,3 +42,70 @@
 .read-the-docs {
   color: #888;
 }
+/* Custom styles for responsiveness */
+@media (max-width: 640px) {
+  .category-button {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 8px 12px; /* Adjust padding */
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .category-button {
+    font-size: 16px; /* Medium font size for tablets */
+    padding: 10px 16px; /* Adjust padding */
+  }
+}
+
+@media (min-width: 768px) {
+  .category-button {
+    font-size: 18px; /* Larger font size for desktops */
+    padding: 12px 20px; /* Adjust padding */
+  }
+}
+/* Custom styles for responsiveness */
+@media (max-width: 640px) {
+  .cart-title {
+    font-size: 24px; /* Smaller font size for mobile */
+  }
+
+  .horizontal-product-card {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .cart-title {
+    font-size: 28px; /* Medium font size for tablets */
+  }
+}
+
+@media (min-width: 768px) {
+  .cart-title {
+    font-size: 32px; /* Larger font size for desktops */
+  }
+}
+/* Custom styles for responsiveness */
+@media (max-width: 640px) {
+  .navbar-title {
+      font-size: 24px; /* Smaller font size for mobile */
+  }
+
+  .navbar-icon {
+      width: 20px; /* Smaller icons for mobile */
+      height: auto;
+  }
+}
+
+@media (min-width:640px) and (max-width:768px) {
+  .navbar-title {
+      font-size:28px; /* Medium font size for tablets */
+  }
+}
+
+@media (min-width:768px) {
+  .navbar-title {
+      font-size:32px; /* Larger font size for desktops */
+  }
+}
+
